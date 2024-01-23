@@ -7,6 +7,7 @@ import Header from './components/Header/Header';
 import JournalAddButton from './components/JournalAddButton/JournalAddButton';
 import JournalItem from './components/JournalItem/JournalItem';
 import JournalList from './components/JournalList/JournalList';
+import JournalForm from './components/JournalForm/JournalForm';
 
 function App() {
 	const data = [
@@ -21,6 +22,8 @@ function App() {
 			date: new Date()
 		}
 	];
+
+
 	return (
 		<div className='app'>
 			<LeftPanel>
@@ -44,7 +47,7 @@ function App() {
 				</JournalList>
 			</LeftPanel>
 			<Body>
-				Body
+				<JournalForm/>
 			</Body>
 		</div>
 	);
