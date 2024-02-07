@@ -4,6 +4,49 @@
       gap: 30px;
 }
 
+
+
+.input-title {
+     border: none;
+     background: none;
+     font-size: 32px;
+     font-family: 'Source Sans Pro', sans-serif;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     border-bottom: 1px solid #272727;
+     width: 100%;
+     color: #fff;
+}
+
+.form-row {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+}
+
+.form-label {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      min-width: 150px;
+}
+
+
+.input {
+            border: none;
+            background: none;
+            font-size: 14px;
+            font-family: 'Source Sans Pro', sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            border-bottom: 1px solid #272727;
+            background-color: #272727;
+            color: #fff;
+            width: 100%;
+}
+
 .invalid {
       border: 1px solid red;
       background: rgb(91, 51, 51);
